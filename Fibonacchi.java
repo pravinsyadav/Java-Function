@@ -18,5 +18,6 @@ public class Fibonacchi {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         printFibo(n);
+        sc.close();
     }
 }

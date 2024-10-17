@@ -17,5 +17,6 @@ public class Factorial {
         int n = sc.nextInt();
         System.out.print("the factorial is: ");
         calculateFactorial(n);
+        sc.close();
     }
 }

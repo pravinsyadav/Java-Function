@@ -12,5 +12,6 @@ public class Functions {
         System.out.println("enter a string: ");
         String name = sc.nextLine();
         printMyName(name);    // here we call the function 
+        sc.close();
     }
 }
